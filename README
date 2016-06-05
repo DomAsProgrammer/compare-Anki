@@ -1,0 +1,53 @@
+WHAT IS compare-Anki.pl ?
+==================
+This partial interactive script compares your utf8-text export
+of Anki (or any else database export in text form) with the jōyō
+kanji and calculates, how many you have or do miss. Also it
+writes all missing to the outputfile. If the outputfile still
+exists, it asks you to overwrite.
+
+
+FEATURES
+========
+Creates a file namend by your second argument with all missing
+kanji and statistics.
+
+
+SOFTWARE REQUIREMENTS
+=====================
+- Perl 5.22.2 or higher (not tested older versions)
+
+
+DOCUMENTATION
+=============
+Start ./compare-Anki.pl with two arguments:
+- <utf8 text file> - utf8 encoded text file, output of your database
+- <output> - targetfile where to save output
+You will get the statistics in the targetfile and on STDOUT, too.
+The missing kanji will be saved in targetfile only.
+
+
+LICENSE
+=======
+It is distributed under the GNU General Public License
+version 3 - see the accompanying file "LICENSE" or
+http://www.gnu.org/licenses/gpl.html for more details.
+
+
+GET SOURCE
+==========
+You find package files on
+https://github.com/DomAsProgrammer/compare-Anki
+
+
+REPORTING BUGS
+==============
+I would be glad to hear positive respone, also you can report
+bugs, errors or proposal to DomAsProgrammer@gmail.com or on
+https://github.com/DomAsProgrammer
+
+
+AUTHORS
+=======
+- Dominik Bernhardt 
+    DomAsProgrammer@gmail.com ; https://github.com/DomAsProgrammer
