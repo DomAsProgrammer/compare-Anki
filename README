@@ -1,5 +1,5 @@
 WHAT IS compare-Anki.pl ?
-==================
+=========================
 This partial interactive script compares your utf8-text export
 of Anki (or any else database export in text form) with the jōyō
 kanji and calculates, how many you have or do miss. Also it
